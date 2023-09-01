@@ -2,9 +2,10 @@
 
 This file is used to list changes made in each version of the apache2 cookbook.
 
-## 0.1.0
+## 0.1.1
 
-Initial release.
+* Basic Apache2 install with a kitchen integration test
 
-- change 0
-- change 1
+## 0.1.0 *Initial release*
+
+* Nothing here but an empty shell
