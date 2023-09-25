@@ -17,8 +17,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# apt_update 'apt_update'
+apt_update 'apt_update'
 
 package 'apache2' do
   action :install
+end
+
+service 'apache2' do
+  action [:start, :enable]
 end

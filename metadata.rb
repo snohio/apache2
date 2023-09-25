@@ -3,7 +3,7 @@ maintainer 'Mike Butler'
 maintainer_email 'snohio@gmail.com'
 license 'GPL-3.0'
 description 'Installs/Configures apache2'
-version '0.1.3'
+version '0.1.4'
 chef_version '>= 16.0'
 
 issues_url 'https://github.com/snohio/apache2/issues'
