@@ -1,18 +1,9 @@
 ---
 driver:
   name: vagrant
-  box_auto_update: true
-  box_auto_prune: true
 
 provisioner:
   name: chef_zero
-  always_update_cookbooks: true
-  product_name: chef
-  product_version: 17
-  channel: stable
-
-### Uncomment this setting to have Test Kitchen fail on any deprecation warning; useful in advance of a new chef-client release
-  # deprecations_as_errors: true
 
 verifier:
   name: inspec
